@@ -21,6 +21,7 @@ header article{
 }
 header article img{/*imagen*/
     border-radius: 6rem;
+    box-shadow: 0 0.2rem 1rem black;
 }
 header div{
     font-size: 20px;
@@ -47,6 +48,23 @@ section article{/*cuerpo*/
     background-color:white;
     border-radius: 0.5rem;
     box-shadow: 0 0.1rem 0.4rem black;
+}
+#menu{
+    background-image: linear-gradient(290deg, #f7b500 0, #ffa500 8.33%, #ff9100 16.67%, #ff7a00 25%, #ff5f00 33.33%, #ff3f00 41.67%, #ed0c0c 50%, #d8001c 58.33%, #c60025 66.67%, #b4002c 75%, #a50034 83.33%, #98003c 91.67%, #8c0046 100%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    box-shadow: 0 0.2rem 0.5rem black;
+    padding: 1.5rem 0;
+    border-radius: 6rem;
+    text-decoration: none;
+    margin-left: 90%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#menu:hover{
+    transition: box-shadow 2s ease;
+    box-shadow: 0 0.2rem 1rem black;
+    cursor: pointer;
 }
 section article h2{
     padding-top: 1rem;
@@ -86,6 +104,7 @@ footer{/*Pie de pagina*/
     background-image: linear-gradient(290deg, #f7b500 0, #ffa500 8.33%, #ff9100 16.67%, #ff7a00 25%, #ff5f00 33.33%, #ff3f00 41.67%, #ed0c0c 50%, #d8001c 58.33%, #c60025 66.67%, #b4002c 75%, #a50034 83.33%, #98003c 91.67%, #8c0046 100%);
     padding-top: 0.5rem;
     color: white;
+    box-shadow: 0 0.2rem 1rem black;
 }
 footer h2{
     padding-left: 0.8rem;
@@ -102,6 +121,9 @@ footer div a{
     padding-left: 95%;
 }
 #upButon{
+    width: 50px;
+    border-radius: 0.5rem;
+    margin-left: 95%;
     align-items: center;
     padding-bottom: auto;
     border-radius: 1rem;
@@ -130,5 +152,6 @@ footer a:hover{
     width: 70px;
     padding-left: 0.1rem;
 }
+
 
  
