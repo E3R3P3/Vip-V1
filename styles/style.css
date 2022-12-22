@@ -1,0 +1,134 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-repeat: repeat;
+    background-size: contain;
+    backdrop-filter: blur(6px);
+}
+header{/*Encabesado*/
+    background-image: linear-gradient(290deg, #f7b500 0, #ffa500 8.33%, #ff9100 16.67%, #ff7a00 25%, #ff5f00 33.33%, #ff3f00 41.67%, #ed0c0c 50%, #d8001c 58.33%, #c60025 66.67%, #b4002c 75%, #a50034 83.33%, #98003c 91.67%, #8c0046 100%);
+    color: white;
+    font-size: large;
+    padding: 1.5rem 0;
+    box-shadow: 0 0.2rem 0.5rem black;
+}
+header article{
+    width: 300px;
+    text-align: center;
+    margin: 0 0;
+}
+header article img{/*imagen*/
+    border-radius: 6rem;
+}
+header div{
+    font-size: 20px;
+    margin-left: 90%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: auto;
+    box-shadow: 0 0.2rem 0.5rem black;
+    border-radius: 6rem;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+}
+header div a:hover{
+    color: blue;
+    transition: 1s ease;
+}
+section article{/*cuerpo*/
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    background-color:white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+section article h2{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 45px;
+}
+#cabeza{
+    background-color: black;
+    color: whitesmoke;
+}
+section article li{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 25px;
+}
+
+article ul{
+    list-style: none;
+    font-size: 25px;
+}
+section article img{/*imagen*/
+    padding-top: 1rem;
+    width: 718px;
+    border-radius: 0.5rem;
+}
+.efect:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.2rem 1rem black;
+    cursor: pointer;
+}
+#video{
+    margin-left: 3.3rem;
+    margin-bottom: 0.9rem;
+    border-radius: 0.5rem;
+}
+footer{/*Pie de pagina*/
+    background-image: linear-gradient(290deg, #f7b500 0, #ffa500 8.33%, #ff9100 16.67%, #ff7a00 25%, #ff5f00 33.33%, #ff3f00 41.67%, #ed0c0c 50%, #d8001c 58.33%, #c60025 66.67%, #b4002c 75%, #a50034 83.33%, #98003c 91.67%, #8c0046 100%);
+    padding-top: 0.5rem;
+    color: white;
+}
+footer h2{
+    padding-left: 0.8rem;
+}
+footer a{
+    display: inline-block;
+    padding-left: 0.8rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+footer div a{
+    padding-left: 95%;
+}
+#upButon{
+    align-items: center;
+    padding-bottom: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 1rem black;
+}
+#upButon:hover{
+    transition: box-shadow 0.3s ease;
+    transition: border-radius 1s ease;
+    border-radius: 6rem;
+    box-shadow: 0 0.2rem 2rem rgb(0, 0, 0);
+}
+footer img{/*imagen*/
+    width: 50px;
+    border-radius: 0.5rem;
+}
+footer img:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.2rem 1.5rem rgb(0, 0, 0);
+    cursor: pointer;
+}
+footer a:hover{
+    color: blue;
+    transition: 0.5s ease;
+}
+#git{
+    width: 70px;
+    padding-left: 0.1rem;
+}
+
+ 
